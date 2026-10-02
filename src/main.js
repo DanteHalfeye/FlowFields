@@ -22,7 +22,7 @@ import { CONFIG } from "./config.js";
 import {
     CATPPUCCIN,
     VISUAL_MODES
-} from "./palette.js";
+} from "./Palette.js";
 
 
 import { FlowField }
