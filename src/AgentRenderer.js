@@ -2,7 +2,7 @@ import * as THREE from "three";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 
 import { CONFIG } from "./config.js";
-import { CATPPUCCIN } from "./palette.js";
+import { CATPPUCCIN } from "./Palette.js";
 
 
 const FORWARD =

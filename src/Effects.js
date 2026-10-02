@@ -6,7 +6,7 @@ import {
 
 import {
     CATPPUCCIN
-} from "./palette.js";
+} from "./Palette.js";
 
 
 export class Effects {
