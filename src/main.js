@@ -38,7 +38,7 @@ import { AudioAnalyzer }
     from "./AudioAnalyzer.js";
 
 import { CameraController }
-    from "./CameraController.js";
+    from "./Cameracontroller.js";
 
 import { Effects }
     from "./Effects.js";
