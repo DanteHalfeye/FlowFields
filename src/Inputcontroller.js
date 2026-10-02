@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import { CONFIG } from "./config.js";
-import { CATPPUCCIN } from "./palette.js";
+import { CATPPUCCIN } from "./Palette.js";
 
 export class InputController {
 
