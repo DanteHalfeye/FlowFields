@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Audio Flock</title>
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+    <!--
+        Three.js import map.
+
+        This fixes:
+        "Failed to resolve module specifier 'three'"
+    -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/"
+        }
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="startScreen">
+
+        <div class="startTitle">
+            AUDIO FLOCK
+        </div>
+
+        <div class="startSubtitle">
+            8,000 ENTITIES · AUDIO REACTIVE SYSTEM
+        </div>
+
+        <button id="startButton">
+            INITIALIZE EXPERIENCE
+        </button>
+
+        <div class="startHint">
+            Select a screen, window, or tab and enable audio sharing
+        </div>
+
+    </div>
+
+
+    <div id="hud">
+
+        <div class="hudTitle">
+            AUDIO / FLOCK
+        </div>
+
+        <div id="audioStatus">
+            AUDIO: WAITING
+        </div>
+
+
+        <div class="controls">
+            <div><span>WASD</span> MOVE CAMERA</div>
+            <div><span>Q / E</span> CAMERA DOWN / UP</div>
+            <div><span>SHIFT</span> CAMERA SPEED</div>
+            <div><span>RMB + DRAG</span> LOOK AROUND</div>
+            <div><span>MOUSE WHEEL</span> ZOOM</div>
+            <div><span>LMB</span> ATTRACT</div>
+            <div><span>F</span> RANDOM ATTRACT</div>
+            <div><span>R</span> RANDOM REPULSE</div>
+            <div><span>X</span> SHOCKWAVE</div>
+            <div><span>SPACE</span> CLEAR FORCES</div>
+            <div><span>1–5</span> VISUAL MODE</div>
+        </div>
+
+        <div id="stats">
+            FPS: --<br>
+            AGENTS: 8,000<br>
+            ENERGY: 0%
+        </div>
+
+    </div>
+
+
+    <script
+        type="module"
+        src="./src/main.js"
+    ></script>
+
+</body>
+
+</html>
+
