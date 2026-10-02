@@ -44,7 +44,7 @@ import { Effects }
     from "./Effects.js";
 
 import { InputController }
-    from "./InputController.js";
+    from "./Inputcontroller.js";
 
 import { MotionBlurPass }
     from "./MotionBlurPass.js";
